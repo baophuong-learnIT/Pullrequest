@@ -1,0 +1,127 @@
+* {
+    background-color: #13131d;
+    font-family: 'Roboto', sans-serif;  
+}
+.main {
+    border-bottom: 1px solid #4D535E;
+    height: 84px;
+    display:flex;
+    align-items: center;
+}
+.header_left {
+    display:flex;
+    align-items: center;
+    padding: 2px 16px;
+    margin:0 191.5px;
+    height: 80px;
+    flex: 1;
+}
+.logo {
+    width: 106px;
+    height: 35px;
+    padding-right: 32px;
+    margin-right: 17px;
+    border-right: 1px solid #4D535E;
+}
+.nav_left {
+    color: #acacac;
+    padding: 28px 12px;
+    margin: 0 8px;
+    font-size: 16px;
+}
+.header_right {
+    display:flex;   
+    align-items: center;
+    margin: 0 -5px;
+    height: 40px;
+    width: 633.5px; 
+    margin-right: 20px;
+}
+.nav_right_search {
+    height: 40px;
+    width: 270px;
+    padding: 0;
+    margin-right: 5px;
+    display:flex; 
+}
+.search {
+    height:38px;
+    width:218px;
+    padding-right: 35px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    color:#acacac;
+    border-color: #ffffff14;
+    font-size: 15px;
+    outline:none;
+
+
+}
+.container_icon_box{
+    height:36px;
+    width: 141px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    background-color: #2899d8
+}
+.icon_box {
+    display:block;
+    font-size: 14px;
+    box-sizing: border-box;
+    width:141px;
+    height:36px;
+    color:rgb(172 172 172);
+    font-weight: 400;
+    background-color: rgb(19 19 29);
+    margin-right: 5;
+}
+.btn_wallet {
+   display:inline-block;
+   font-weight: 500;
+   text-align: center;
+   font-size: 16px;
+   border-radius: 10px;
+   background:#212e48;
+   color: #ffffff;
+   vertical-align: middle;
+   padding:6px 14px;
+   margin-left: 5;
+   
+}
+.bell_icon_box {
+    box-sizing: border-box;
+    display:block;
+    font-size: 14px;
+    color: rgb(172 172 172);
+    height:40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+
+.bell_icon_link {
+    height: 38px;
+    width: 38px;
+    display:flex;
+    margin-top: 8px;
+
+}
+.sun_icon_box {
+    height: 28px;px;
+    width: 38px;
+    display:flex;
+    font-size: 14px;
+    justify-content: center;
+
+
+}
+
+.sun-image {
+    height: 16px;
+    width: 16px;
+}
+
+
+.search_icon {
