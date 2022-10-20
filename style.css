@@ -1,5 +1,6 @@
 * {
     background-color: #13131d;
+    color: rgb(172 172 172);
     font-family: 'Roboto', sans-serif;  
 }
 .main {
@@ -41,29 +42,45 @@
     height: 40px;
     width: 270px;
     padding: 0;
-    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display:flex; 
+    justify-content: flex-start;
 }
 .search {
     height:38px;
     width:218px;
-    padding-right: 35px;
-    padding-left: 15px;
+    padding-right: 30px;
+    padding: 0 15px;
     border-radius: 10px;
-    border: 1px solid;
     color:#acacac;
     border-color: #ffffff14;
     font-size: 15px;
     outline:none;
-
-
 }
+.search-1 {
+    height:20px;
+    width:17px;
+    font-size: 15px;
+    align-items:flex-start;
+    border:0 none;
+    padding:0;
+    position:relative;
+    top: 10px;
+    right: 5px;
+}
+.text {
+    outline: none;
+    
+}
+    
 .container_icon_box{
     height:36px;
     width: 141px;
     box-sizing: border-box;
-    margin-left: 5px;
+    margin:0px 10px;
     background-color: #2899d8
+    
 }
 .icon_box {
     display:block;
@@ -74,26 +91,26 @@
     color:rgb(172 172 172);
     font-weight: 400;
     background-color: rgb(19 19 29);
-    margin-right: 5;
+    margin-right: ;
 }
 .btn_wallet {
    display:inline-block;
-   font-weight: 500;
+   font-weight: 400;
    text-align: center;
    font-size: 16px;
    border-radius: 10px;
    background:#212e48;
    color: #ffffff;
-   vertical-align: middle;
    padding:6px 14px;
-   margin-left: 5;
+   width: 125px;
+   height: 22px;
    
 }
 .bell_icon_box {
     box-sizing: border-box;
     display:block;
     font-size: 14px;
-    color: rgb(172 172 172);
+    color: rgb(251 249 249);
     height:40px;
     width: 40px;
     margin-left: 10px;
@@ -106,22 +123,29 @@
     width: 38px;
     display:flex;
     margin-top: 8px;
+    margin-left: 10px;
 
 }
 .sun_icon_box {
-    height: 28px;px;
-    width: 38px;
+    box-sizing: border-box;
     display:flex;
     font-size: 14px;
-    justify-content: center;
-
-
+    height:38px;
+    width: 38px;
+    align-items: center
+    
+    
+}
+.sun_icon {
+    height: 30px;
+    width: 30px;
+    color: #f6f6f6;
+    margin-bottom: 5px;
+    
+    
 }
 
-.sun-image {
-    height: 16px;
-    width: 16px;
-}
+   
 
 
-.search_icon {
+
